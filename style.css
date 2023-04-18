@@ -1,0 +1,63 @@
+/* Estilos generales */
+:root {
+	--border-color: #290e0e;
+	--border-radius: 5px;
+	--button-background: #4CAF50;
+	--button-hover: #3e8e41;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #587abe; /* Agregamos el color de fondo deseado */
+	color: #121111; /* Agregamos el color de letra deseado */
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 20px;
+	border: 1px solid var(--border-color);
+	border-radius: var(--border-radius);
+	background-color: #dde0dd; /* Agregamos el color de fondo deseado */
+	color: #a81919; /* Agregamos el color de letra deseado */
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: var(--text-color); /* Agregar el color de letra deseado */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid var(--border-color);
+	border-radius: var(--border-radius);
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	color: var(--text-color); /* Agregar el color de letra deseado */
+	background-color: var(--background-color); /* Agregar el color de fondo deseado */
+}
+
+input[type="submit"] {
+	background-color: var(--button-background);
+	color: rgb(8, 6, 6);
+	padding: 10px 20px;
+	border: none;
+	border-radius: var(--border-radius);
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: var(--button-hover);
+}
+
